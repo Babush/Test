@@ -20,13 +20,19 @@ namespace TestProject
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 f = new Form2();
+            this.Hide();
             f.ShowDialog();
+            if (f.DialogResult == System.Windows.Forms.DialogResult.Cancel)
+                this.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form3 f = new Form3();
+            this.Hide();
             f.ShowDialog();
+            if (f.DialogResult == System.Windows.Forms.DialogResult.Cancel)
+                this.Show();
         }
     }
 }
