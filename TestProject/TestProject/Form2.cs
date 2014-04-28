@@ -15,8 +15,25 @@ namespace TestProject
         public Form2()
         {
             InitializeComponent();
-            Pole p1 = new Pole(1,Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\1.png"));
+           /* Pole p1 = new Pole(1,Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\1.png"));
             button1.BackgroundImage = p1.Slika;
+            Pole p2 = new Pole(2, Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\2.png"));
+            button2.BackgroundImage = p2.Slika;
+            Pole p3 = new Pole(3, Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\3.png"));
+            button3.BackgroundImage = p3.Slika;
+            Pole p4 = new Pole(4, Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\4.png"));
+            button4.BackgroundImage = p4.Slika;
+            Pole p5 = new Pole(5, Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\5.png"));
+            button5.BackgroundImage = p5.Slika;
+            Pole p6 = new Pole(6, Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\6.png"));
+            button6.BackgroundImage = p6.Slika;
+            Pole p7 = new Pole(7, Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\7.png"));
+            button7.BackgroundImage = p7.Slika;
+            Pole p8 = new Pole(8, Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\8.png"));
+            button8.BackgroundImage = p8.Slika;
+            Pole p9 = new Pole(9, Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\9.png"));
+            button9.BackgroundImage = p9.Slika;
+            */
         }
 
         private void button1_Click(object sender, EventArgs e)
