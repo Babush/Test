@@ -15,6 +15,8 @@ namespace TestProject
         public Form2()
         {
             InitializeComponent();
+            Pole p1 = new Pole(1,Image.FromFile(@"C:\Users\Vladimir\Documents\GitHub\Test\TestProject\TestProject\Images\1.png"));
+            button1.BackgroundImage = p1.Slika;
         }
 
         private void button1_Click(object sender, EventArgs e)
